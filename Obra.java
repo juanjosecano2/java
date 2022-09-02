@@ -61,22 +61,30 @@ public class Obra {
             System.out.println(listaC);
         }
         //punto4
-        public static void puedoCambiar(String[] args) {
+                public static void puedoCambiar(String[] args) {
             System.out.println();
             int[] array1 = {3,5,10,17,15,16};
             int[] array2 = {4,10,5,8};
             int count = 0;
+            int sum1 = 0;
+            int sum2 = 0;
+            int total = 0;
+            int tamanio1 = array1.length;
+            int tamanio2 = array2.length;
+
             for(int i=0;i<array1.length;i++){//recorrer el primer array
                 for(int j=0;j<array2.length;j++){//recorriendo el segundo array
                     if(array1[i] == array2[j]){//identificando si hay un igual 
-                        count += 1; // contamos los campos iguales
+                        //count += 1; // contamos los campos iguales
+                        //sum1 = tamanio1 - count;
+                        //sum2 = tamanio2 - count;
                         
                     }
                     else{
-                        count += 0;
+                        total += 0;
                     }
                 }
             }
-            System.out.println(count);//imprimir la cuenta de iguales
+            System.out.println(total);//imprimir la cuenta de iguales
         }
 }
