@@ -4,14 +4,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
 public class Obra {
   public static void main(String[] args){
         
         Obra.Clases(args);
         
-        //Obra.noTengo(args);
+        Obra.noTengo(args);
         
-        //Obra.puedoCambiar(args);
+        Obra.puedoCambiar(args);
     } 
     //punto1
     private static void Clases(String[] args) {
