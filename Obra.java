@@ -1,26 +1,18 @@
-# java
+
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author alejo
- */
 public class Obra {
-  // public static void main(String[] args){
-        //punto1
-        //Obra.Clases(args);
-        //punto3
+  public static void main(String[] args){
+        
+        Obra.Clases(args);
+        
         //Obra.noTengo(args);
-        //punto4
+        
         //Obra.puedoCambiar(args);
-   // } 
+    } 
     //punto1
     private static void Clases(String[] args) {
         int arr[] = {11,11,8,7,2,2,7,8,8,8,3,11}; 
@@ -75,9 +67,9 @@ public class Obra {
             int sum2 = 0;
             int total = 0;
             int tamanio1 = array1.length;
-            tamanio1 = eliminarRepetidos(array1, tamanio1);
+            tamanio1 = eliminarclases(array1, tamanio1);
             int tamanio2 = array2.length;
-            tamanio2 = eliminarRepetidos(array2, tamanio2);
+            tamanio2 = eliminarclases(array2, tamanio2);
 
             for(int i=0;i<array1.length;i++){//recorrer el primer array
                 for(int j=0;j<array2.length;j++){//recorriendo el segundo array
