@@ -13,11 +13,14 @@ import java.util.stream.Collectors;
  * @author alejo
  */
 public class Obra {
-/**   public static void main(String[] args){
-        Obra.Clases(args);
-        Obra.noTengo(args);
-        Obra.puedoCambiar(args);
-    } */ 
+  // public static void main(String[] args){
+        //punto1
+        //Obra.Clases(args);
+        //punto3
+        //Obra.noTengo(args);
+        //punto4
+        //Obra.puedoCambiar(args);
+   // } 
     //punto1
     private static void Clases(String[] args) {
         int arr[] = {11,11,8,7,2,2,7,8,8,8,3,11}; 
